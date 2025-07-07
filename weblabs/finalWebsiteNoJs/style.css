@@ -1,0 +1,18 @@
+body {
+  background-color: lightblue;
+  margin: 15px;
+}
+.images {
+  display: block;
+  margin: auto;
+  width: 75%;
+}
+#webfishing-img{
+  width: 35%;
+}
+a:hover{
+  font-size: 22px;
+}
+.credits{
+  text-align: center;
+}

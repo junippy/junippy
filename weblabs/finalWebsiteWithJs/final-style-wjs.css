@@ -1,0 +1,38 @@
+body {
+  background-color: lightblue;
+  margin: 15px;
+}
+.images {
+  display: block;
+  margin: auto;
+  width: 75%;
+}
+#webfishing-img{
+  width: 35%;
+}
+a:hover{
+  font-size: 22px;
+}
+.super-secret-div{
+  font-weight: bold;
+  height: 5px;
+}
+.super-secret-div:hover p{
+  display: block;
+}
+.sec-div2{
+  opacity: 0;
+  color: white;
+}
+.sec-div2:hover{
+  background-color: black;
+  opacity: 100;
+}
+.hidden-secret {
+      color: transparent;
+      transition: color 0.3s;
+    }
+    .hidden-secret:hover {
+      color: black;
+      cursor: pointer;
+    }

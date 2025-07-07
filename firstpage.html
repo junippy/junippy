@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click the GIF!</title>
+    <style>
+        body {
+            background-color: white;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .h1 {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 900;
+            color: black;
+            text-shadow: 2px 2px 0 red;
+            display: flex;
+            
+        }
+        img {
+            cursor: pointer;
+            width: 300px;
+        }
+        img:hover {
+            transform: scale(1.1);
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <a href="index.html" id="start-link">
+      <img src="https://i.postimg.cc/kgSpRmyx/club-penguin-ghosthy.gif" alt="Click me!">    
+    </a> 
+</div>
+<h1 class="h1">press the penguin to begin...</h1>
+    <script>
+      document.getElementById('start-link').addEventListener('click', function() {
+        localStorage.setItem('started', 'yes');
+      });
+    </script>
+</body>
+</html>

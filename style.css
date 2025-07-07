@@ -1,0 +1,98 @@
+body {
+  background-color: #fff9c4;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  color: #000000;
+  border: 4px groove #000000;
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 1250px;
+  box-shadow: 0 0 200px #0004;
+}
+.list1 {
+    font-family: "Outfit", serif;
+    font-style: normal;
+}
+hr {
+  border-color: grey;
+}
+#credits{
+  font-weight: normal;
+}
+.tuxedoCat, .maineCoon, .americanShorthair, .russianBlue, .calico, .lavender{
+  background-color: lightgreen;
+  border: 3px solid green;
+  margin: 5px;
+  padding: 5px;
+  width: 325px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  display: flex;
+}
+#tuxedoCat, #maineCoon, #americanShorthair, #russianBlue, #calico{
+  width: 300px;
+}
+.catContainer{
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-evenly;
+  background-color: darkgreen;
+  }
+.jesusOutfit{
+  width: 300px;
+}
+.jesusOutfitContainer, .gamesImages{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 3px double black;
+}
+.weblabzeroone{
+  background-color: white;
+  color: black;
+}
+.weblabonepicture{
+  width: 700px;
+}
+#catWallpaper {
+  width: 150px;
+  border: 10px outset darkred;
+  border-radius: 10px;
+  padding: 2px;
+}
+#fatCat {
+  width: 20%;
+  border: 10px groove blue;
+  border-radius: 10px;
+  padding: 1px;
+}
+#smugCat {
+  width: 20%;
+  border: 10px solid green;
+  border-radius: 100%;
+  padding: 3px;
+  filter: drop-shadow(5px 5px 5px green);
+}
+.weblabeightpictures{
+  width: 350px;
+  display: flex;
+  padding: 3px;
+}
+.terraria{
+  width: 300px;
+}
+.atabook{
+  width: 95vw;
+  height: 100vh;
+}
+a.links:hover {
+  color: blue;
+  text-shadow: 1px 1px 0 red;
+  border-radius: 4px;
+}

@@ -1,0 +1,28 @@
+body {
+  background-color: aliceblue;
+}
+header{
+  background-color: aqua;
+}
+main{
+ background-color: aquamarine;
+}
+footer{
+  background-color:beige;
+}
+p,a{
+  font-size: 22px;
+}
+a{
+  width: 200px;
+  height: 200px;
+
+  background-size: cover; /* Cover the entire area of the element */
+  transition: background-image 0.5s ease-in-out; /* Smooth transition */
+}
+
+a:hover {
+  background-image: url('https://i.postimg.cc/qqyh0dWP/3d77d7e19f5860ff911a05db229df3a6.jpg'); /* Change on hover */
+  width: 200px;
+  height: 200px;
+}
